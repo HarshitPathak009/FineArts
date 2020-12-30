@@ -11,7 +11,7 @@ class User(db.Model):
     artist_name = db.Column(db.String(50), nullable=False)
     instagram = db.Column(db.String(120), nullable=False)
     branch = db.Column(db.String(6), nullable=False)
-    image = db.Column(db.String(400), nullable=False, default='https://res.cloudinary.com/humbleartist/image/upload/v1609164246/Profile/IMG-20201220-WA0244_-_Vidushi_Agarwal_mwjlev.jpg')
+    image = db.Column(db.String(400), nullable=False, default='https://res.cloudinary.com/humbleartist/image/upload/v1609228204/Profile/female_e1fbkx.png')
     votes = db.Column(db.Integer, nullable=False, default=0)
     post = db.relationship('Post', backref='artist', lazy=True)
 
@@ -27,9 +27,10 @@ class Post(db.Model):
     def __repr__(self):
         return f"Post('{self.art}','{self.likes}')"
 
-@app.route("/")
-def home():
-    return render_template("base.html", artists=User.query.all())
+@app.route("/",methods=["POST","GET"])
+def home(username=""):
+    print(username)
+    return render_template("base.html", artists=User.query.all(),message=username)
 
 @app.route("/team/")
 def team():
@@ -44,11 +45,25 @@ def admin():
 def artsteam():
     return render_template("artsteam.html")
 
-@app.route("/<username>")
+@app.route("/<username>,",methods=["POST","GET"])
 def display(username):
     user=User.query.filter_by(artist_name=username).first()
-    print(user)
     work = user.post
+    template = 'display'
+    if request.method ==  'POST' :
+        for i in request.form:
+            j,k = i.split("_")
+            if(j=="image"):
+                like_up = Post.query.filter_by(id=k).first()
+                like_up.likes+=1
+                template = 'display'
+            else:
+                vote_up = User.query.filter_by(id=k).first()
+                vote_up.votes+=1
+                template = 'home'
+            db.session.commit()
+            print(user.artist_name)
+            return redirect(url_for(template, username=user.artist_name))
     return render_template("display.html",user=user, work=work)
 
 

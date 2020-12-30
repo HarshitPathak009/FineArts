@@ -14,17 +14,25 @@
         <div class="art a{{index}}">
             <a href="{{images.art}}" target="__blank"> <img src="{{images.art}}" alt="loading" />
             </a>
-           <div id="like" class="like">
-                <i class="fas fa-heart"></i>
-                <div id="likecount" class="likecount">{{images.likes}}</div>
-            </div>
+            <form action="" method="post">
+                <button name="image_{{images.id}}", value="{{images.likes}}">
+                    <div id="like" class="like">
+                        <i class="fas fa-heart"></i>
+                        <div id="likecount" class="likecount">{{images.likes}}</div>
+                    </div>
+                </button>
+            </form>
         </div>
     {% endfor %}
     </div>
 </div>
- <div class="vote">
-        <i class="fas fa-thumbs-up"></i>
-    </div>
+<div class="vote">
+    <form action="" method="post">
+        <button name="vote_{{user.id}}", value="{{user.votes}}">
+                <i class="fas fa-thumbs-up"></i>
+        </button>
+    </form>
+</div>
 {% endblock %}
     
   <script>
