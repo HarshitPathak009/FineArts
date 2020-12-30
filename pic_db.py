@@ -681,4 +681,39 @@ database={
             },
         ]
     },
+    "Kashvi Joshi":{
+        "branch":"CSE-20",
+        "instagram":"",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609335182/Profile/Kashvi_Joshi_fno9gy.png",
+        "images_url":[
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609335118/Artwork/Kashvi%20Joshi/Kashvi_Joshi-7_wuqokk.png",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609335087/Artwork/Kashvi%20Joshi/WhatsApp_Image_2020-12-30_at_18.59.02_u8ptrz.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609335086/Artwork/Kashvi%20Joshi/WhatsApp_Image_2020-12-30_at_18.59.02_1_h7nuuq.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609335085/Artwork/Kashvi%20Joshi/WhatsApp_Image_2020-12-30_at_18.59.03_uyrzph.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609335084/Artwork/Kashvi%20Joshi/WhatsApp_Image_2020-12-30_at_18.59.03_1_iapbi2.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609335084/Artwork/Kashvi%20Joshi/WhatsApp_Image_2020-12-30_at_18.59.05_tknkhw.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609335083/Artwork/Kashvi%20Joshi/WhatsApp_Image_2020-12-30_at_18.59.04_cjxjae.jpg",
+                "likes":0,
+            },
+        ]
+    },
 }

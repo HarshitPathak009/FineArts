@@ -27,8 +27,10 @@ class Post(db.Model):
     def __repr__(self):
         return f"Post('{self.art}','{self.likes}')"
 
-@app.route("/",methods=["POST","GET"])
-def home(username=""):
+@app.route("/")
+def home():
+    username = request.args.get('username')
+    print(request.args)
     print(username)
     return render_template("base.html", artists=User.query.all(),message=username)
 
@@ -62,7 +64,6 @@ def display(username):
                 vote_up.votes+=1
                 template = 'home'
             db.session.commit()
-            print(user.artist_name)
             return redirect(url_for(template, username=user.artist_name))
     return render_template("display.html",user=user, work=work)
 

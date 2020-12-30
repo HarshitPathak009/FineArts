@@ -57,8 +57,8 @@
             <h2>Our Artists</h2>
         </div>
         <div class="content">
-            {% if message != "" %}
-                <marquee style="color:white">You Just Voted {{message}}</marquee>
+            {% if message != None %}
+                <marquee style="color:white">You Just voted {{message}}</marquee>
             {% endif %}
              {% for artist in artists%}
                 {% set index = loop.index %}
