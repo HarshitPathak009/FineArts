@@ -683,7 +683,7 @@ database={
     },
     "Kashvi Joshi":{
         "branch":"CSE-20",
-        "instagram":"",
+        "instagram":"https://www.instagram.com/kashvi_joshi12/",
         "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609335182/Profile/Kashvi_Joshi_fno9gy.png",
         "images_url":[
             {
