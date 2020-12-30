@@ -216,74 +216,45 @@ database={
         "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609086809/Profile/IMG_20201227_220308_do93kx.jpg",
         "images_url":[
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088949/Artwork/Tanmaya%20Singh/IMG-20201227-WA0212_bxdlzx.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333465/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.13.59_pcj3yo.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088949/Artwork/Tanmaya%20Singh/IMG-20201227-WA0211_iqnwxb.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333465/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.13.56_wdfadc.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088949/Artwork/Tanmaya%20Singh/IMG-20201227-WA0213_aqxeqk.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333465/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.13.56_1_rjpkzq.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088949/Artwork/Tanmaya%20Singh/IMG-20201227-WA0215_djlg5z.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333464/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.14.00_ei2yf6.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088949/Artwork/Tanmaya%20Singh/IMG-20201227-WA0214_upw0ij.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333464/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.14.01_1_edksly.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088949/Artwork/Tanmaya%20Singh/IMG-20201227-WA0216_fovxie.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333464/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.14.04_1_mjokgz.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088949/Artwork/Tanmaya%20Singh/IMG-20201227-WA0217_qj28i2.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333464/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.14.02_tbin8e.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088948/Artwork/Tanmaya%20Singh/IMG-20201227-WA0219_ahfgbt.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333463/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.14.01_gmorov.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088948/Artwork/Tanmaya%20Singh/IMG-20201227-WA0222_j3rncd.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333463/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.14.04_rbktpf.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088948/Artwork/Tanmaya%20Singh/IMG-20201227-WA0220_at4sj4.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609333463/Artwork/Tanmaya%20Singh/WhatsApp_Image_2020-12-30_at_18.20.40_tipihw.jpg",
                 "likes":0,
             },
-            {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088948/Artwork/Tanmaya%20Singh/IMG-20201227-WA0218_h5vkug.jpg",
-                "likes":0,
-            },
-            {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088948/Artwork/Tanmaya%20Singh/IMG-20201227-WA0224_hncstg.jpg",
-                "likes":0,
-            },
-            {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088947/Artwork/Tanmaya%20Singh/IMG-20201227-WA0221_ehzr40.jpg",
-                "likes":0,
-            },
-            {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088947/Artwork/Tanmaya%20Singh/IMG-20201227-WA0225_rsx7wu.jpg",
-                "likes":0,
-            },
-            {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088947/Artwork/Tanmaya%20Singh/IMG-20201227-WA0223_pkmzm7.jpg",
-                "likes":0,
-            },
-            {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088947/Artwork/Tanmaya%20Singh/IMG-20201227-WA0226_oqj1qa.jpg",
-                "likes":0,
-            },
-            {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609088947/Artwork/Tanmaya%20Singh/IMG-20201227-WA0227_v8quzp.jpg",
-                "likes":0,
-            },
-
         ]
     },
     "Anuragh Pant":{
