@@ -38,7 +38,7 @@ def home():
 def team():
     return render_template("team.html")
 
-@app.route("/nicetrybutIdontkeeptheadminurlasadminurlcauseIain'tStupid/")
+@app.route("/admin/")
 def admin():
     user = User.query.all()
     return render_template("admin.html",user=user)
